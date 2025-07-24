@@ -27,19 +27,19 @@
         <title>Faugei Flower Shop</title>
     </head>
     <body>
-        <header class="mt-3">
+        <header class="mt-3 lg:max-w-[1140px] lg:my-0 lg:mx-auto">
             <nav class="inter flex items-end justify-between mx-4">
-                <div class="logo w-20">
+                <div class="logo w-20 lg:w-30">
                     <img
                         class="w-full"
                         src="assets/logo.png"
                         alt="Logo of Faugei Flower Shop"
                     />
                 </div>
-                <ul>
-                    <li class="hidden"><a href="#">Home</a></li>
-                    <li class="hidden"><a href="#">Shop</a></li>
-                    <li class="hidden"><a href="#">About Us</a></li>
+                <ul class="lg:flex lg:gap-12">
+                    <li class="hidden lg:block"><a href="#">Home</a></li>
+                    <li class="hidden lg:block"><a href="#">Shop</a></li>
+                    <li class="hidden lg:block"><a href="#">About Us</a></li>
                     <li>
                         <a href="#"
                             ><i class="fa-solid fa-cart-shopping"></i> Cart
@@ -51,21 +51,79 @@
         </header>
 
         <main>
-            <section class="banner-section my-7">
+            <section
+                class="banner-section my-7 lg:flex lg:flex-row-reverse lg:items-center lg:max-w-[1140px] lg:my-0 lg:mx-auto lg:mt-8"
+            >
                 <div class="banner-image-container">
-                    <img src="assets/hero-flower.png" alt="" />
+                    <img
+                        class="lg:w-[570px]"
+                        src="assets/hero-flower.png"
+                        alt=""
+                    />
                 </div>
-                <div class="banner-text-container mt-7 mx-4">
-                    <h1 class="font-bold noto-serif text-2xl">
+                <div class="banner-text-container mt-7 mx-4 lg:w-[570px]">
+                    <h1 class="font-bold noto-serif text-2xl lg:text-[64px]">
                         ALWAYS
                         <span class="text-[#E95A08]">FRESH <br />FLOWERS</span>
                     </h1>
-                    <p class="inter text-[14px]/5 text-black/50 mt-3">
+                    <p
+                        class="inter text-[14px]/5 text-black/50 mt-3 lg:text-[22px]/7"
+                    >
                         Indulge your senses with the beauty and fragrance of our
                         fresh flower shop. From classic roses to exotic blooms,
                         we offer a wide variety of fresh flowers that are
                         perfect for any occasion.
                     </p>
+                </div>
+            </section>
+            .
+
+            <section class="our-plants mx-4">
+                <h1 class="noto-serif font-bold text-2xl text-center">
+                    <span class="text-[#E95A08]">Our</span> Plants
+                </h1>
+                <p class="mb-4 text-center text-sm/5 mx-6 text-black/50">
+                    Indulge your senses with the beauty and fragrance of our
+                    fresh flower shop. From classic roses to exotic blooms, we
+                    offer a wide variety of fresh.
+                </p>
+                <div class="plants-container mt-7 grid grid-cols-1 gap-8">
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
+                    <div class="plant-card">
+                        <img src="assets/sample-flower-image.png" alt="" />
+                        <h2>Lily Blossom</h2>
+                        <p>20 USD</p>
+                        <button>ADD TO CART</button>
+                    </div>
                 </div>
             </section>
         </main>
