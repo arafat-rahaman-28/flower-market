@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .card {
+                position: relative;
+                width: 300px;
+                height: 150px;
+                border-radius: 12px;
+                overflow: hidden;
+                font-family: sans-serif;
+            }
+
+            .card-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            .overlay {
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.5); /* darkness level */
+            }
+
+            .content {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-align: center;
+            }
+
+            .content h2 {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
+
+            .content a {
+                text-decoration: underline;
+                color: white;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="deal-zabo.png" alt="Zabo Plant" class="card-img" />
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>25% Off | Zabo Plant</h2>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+    </body>
+</html>
