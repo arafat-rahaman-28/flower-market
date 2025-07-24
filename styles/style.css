@@ -109,6 +109,11 @@ nav {
     font-weight: bold;
 }
 
+.join-section {
+    background-image: url(/assets/news-letter-bg.png);
+    background-position: center;
+}
+
 @media (max-width: 1024px) {
     .trusted-badge {
         display: none;
