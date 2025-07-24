@@ -1,1 +1,10 @@
 @import "tailwindcss";
+nav {
+    font-family: Inter;
+}
+.noto-serif {
+    font-family: Noto Serif;
+}
+.inter {
+    font-family: Inter;
+}
