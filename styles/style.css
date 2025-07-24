@@ -14,12 +14,12 @@ nav {
     /* width: 271px; */
     font-family: Inter;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 .plant-card img {
     width: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .plant-card h2 {
     margin-top: 18px;
@@ -41,6 +41,6 @@ nav {
     font-size: 16px;
     color: white;
     margin-top: 16px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
