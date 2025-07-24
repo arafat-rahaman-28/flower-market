@@ -1,4 +1,8 @@
 @import "tailwindcss";
+* {
+    box-sizing: border-box;
+}
+
 nav {
     font-family: Inter;
 }
@@ -36,11 +40,21 @@ nav {
 .plant-card button {
     background-color: #e95a08;
     width: 100%;
-    padding: 24px 50px;
+    padding: 18px 36px;
     font-weight: 600;
     font-size: 16px;
     color: white;
     margin-top: 16px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+.plant-lover-text-container ul li {
+    margin-bottom: 16px;
+    font-family: Inter;
+    color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1024px) {
+    .trusted-badge {
+        display: none;
+    }
 }
