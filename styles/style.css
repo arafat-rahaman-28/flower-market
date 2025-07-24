@@ -112,6 +112,13 @@ nav {
 .join-section {
     background-image: url(/assets/news-letter-bg.png);
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-column-two ul li,
+.footer-column-three ul li {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1024px) {
