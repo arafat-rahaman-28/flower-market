@@ -22,8 +22,6 @@ nav {
 }
 .plant-card img {
     width: 100%;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
 }
 .plant-card h2 {
     margin-top: 18px;
@@ -45,8 +43,6 @@ nav {
     font-size: 16px;
     color: white;
     margin-top: 16px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
 }
 .plant-lover-text-container ul li {
     margin-bottom: 16px;
@@ -98,7 +94,6 @@ nav {
 }
 
 .content h2 {
-    font-size: 18px;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -111,8 +106,12 @@ nav {
 
 .join-section {
     background-image: url(/assets/news-letter-bg.png);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .footer-column-two ul li,
