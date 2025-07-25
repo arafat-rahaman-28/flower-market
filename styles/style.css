@@ -103,7 +103,9 @@ nav {
     color: white;
     font-weight: bold;
 }
-
+.zabo-plant-styles {
+    height: 100%;
+}
 .join-section {
     background-image: url(../assets/news-letter-bg.png);
     /* background-position: center; */
